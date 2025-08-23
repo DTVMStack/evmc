@@ -80,6 +80,8 @@ enum evmc_opcode
     OP_CHAINID = 0x46,
     OP_SELFBALANCE = 0x47,
     OP_BASEFEE = 0x48,
+    OP_BLOBHASH = 0x49,
+    OP_BLOBBASEFEE = 0x4a,
 
     OP_POP = 0x50,
     OP_MLOAD = 0x51,
@@ -93,6 +95,9 @@ enum evmc_opcode
     OP_MSIZE = 0x59,
     OP_GAS = 0x5a,
     OP_JUMPDEST = 0x5b,
+    OP_TLOAD = 0x5c,
+    OP_TSTORE = 0x5d,
+    OP_MCOPY = 0x5e,
 
     OP_PUSH0 = 0x5f,
     OP_PUSH1 = 0x60,
